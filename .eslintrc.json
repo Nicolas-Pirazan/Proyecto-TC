@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-unused-vars": [
+      "warn",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ],
+    "quotes": "off",
+    "semi": "off",
+    "curly": "off",
+    "no-empty": "error"
+    // "@typescript-eslint/no-explicit-any": ["error", { "fixToUnknown": true }]
+  }
+}
